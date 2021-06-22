@@ -1,0 +1,21 @@
+C:\Users\yueason\source\repos\TabControl Style Practice\TabControl Style Practice\bin\Debug\netcoreapp3.1\TabControl Style Practice.exe
+C:\Users\yueason\source\repos\TabControl Style Practice\TabControl Style Practice\bin\Debug\netcoreapp3.1\TabControl Style Practice.deps.json
+C:\Users\yueason\source\repos\TabControl Style Practice\TabControl Style Practice\bin\Debug\netcoreapp3.1\TabControl Style Practice.runtimeconfig.json
+C:\Users\yueason\source\repos\TabControl Style Practice\TabControl Style Practice\bin\Debug\netcoreapp3.1\TabControl Style Practice.runtimeconfig.dev.json
+C:\Users\yueason\source\repos\TabControl Style Practice\TabControl Style Practice\bin\Debug\netcoreapp3.1\TabControl Style Practice.dll
+C:\Users\yueason\source\repos\TabControl Style Practice\TabControl Style Practice\bin\Debug\netcoreapp3.1\TabControl Style Practice.pdb
+C:\Users\yueason\source\repos\TabControl Style Practice\TabControl Style Practice\obj\Debug\netcoreapp3.1\TabControl Style Practice.csprojAssemblyReference.cache
+C:\Users\yueason\source\repos\TabControl Style Practice\TabControl Style Practice\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\yueason\source\repos\TabControl Style Practice\TabControl Style Practice\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\yueason\source\repos\TabControl Style Practice\TabControl Style Practice\obj\Debug\netcoreapp3.1\TabControl Style Practice_MarkupCompile.cache
+C:\Users\yueason\source\repos\TabControl Style Practice\TabControl Style Practice\obj\Debug\netcoreapp3.1\TabControl Style Practice_MarkupCompile.lref
+C:\Users\yueason\source\repos\TabControl Style Practice\TabControl Style Practice\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\yueason\source\repos\TabControl Style Practice\TabControl Style Practice\obj\Debug\netcoreapp3.1\TabControl_Style.baml
+C:\Users\yueason\source\repos\TabControl Style Practice\TabControl Style Practice\obj\Debug\netcoreapp3.1\TabControl Style Practice.g.resources
+C:\Users\yueason\source\repos\TabControl Style Practice\TabControl Style Practice\obj\Debug\netcoreapp3.1\TabControl Style Practice.AssemblyInfoInputs.cache
+C:\Users\yueason\source\repos\TabControl Style Practice\TabControl Style Practice\obj\Debug\netcoreapp3.1\TabControl Style Practice.AssemblyInfo.cs
+C:\Users\yueason\source\repos\TabControl Style Practice\TabControl Style Practice\obj\Debug\netcoreapp3.1\TabControl Style Practice.csproj.CoreCompileInputs.cache
+C:\Users\yueason\source\repos\TabControl Style Practice\TabControl Style Practice\obj\Debug\netcoreapp3.1\TabControl Style Practice.dll
+C:\Users\yueason\source\repos\TabControl Style Practice\TabControl Style Practice\obj\Debug\netcoreapp3.1\TabControl Style Practice.pdb
+C:\Users\yueason\source\repos\TabControl Style Practice\TabControl Style Practice\obj\Debug\netcoreapp3.1\TabControl Style Practice.genruntimeconfig.cache
+C:\Users\yueason\source\repos\TabControl Style Practice\TabControl Style Practice\obj\Debug\netcoreapp3.1\App.baml
