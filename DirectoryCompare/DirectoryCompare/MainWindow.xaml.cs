@@ -23,6 +23,8 @@ namespace DirectoryCompare
         public MainWindow()
         {
             InitializeComponent();
+            var i = TreeView1.Items;
+            int h = 1;
         }
     }
 }

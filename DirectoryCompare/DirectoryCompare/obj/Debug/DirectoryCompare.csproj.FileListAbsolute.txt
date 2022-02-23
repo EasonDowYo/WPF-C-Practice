@@ -1,0 +1,15 @@
+D:\Code\WPF-C-Practice\DirectoryCompare\DirectoryCompare\bin\Debug\DirectoryCompare.exe.config
+D:\Code\WPF-C-Practice\DirectoryCompare\DirectoryCompare\bin\Debug\DirectoryCompare.exe
+D:\Code\WPF-C-Practice\DirectoryCompare\DirectoryCompare\bin\Debug\DirectoryCompare.pdb
+D:\Code\WPF-C-Practice\DirectoryCompare\DirectoryCompare\obj\Debug\DirectoryCompare.csprojAssemblyReference.cache
+D:\Code\WPF-C-Practice\DirectoryCompare\DirectoryCompare\obj\Debug\MainWindow.g.cs
+D:\Code\WPF-C-Practice\DirectoryCompare\DirectoryCompare\obj\Debug\App.g.cs
+D:\Code\WPF-C-Practice\DirectoryCompare\DirectoryCompare\obj\Debug\DirectoryCompare_MarkupCompile.cache
+D:\Code\WPF-C-Practice\DirectoryCompare\DirectoryCompare\obj\Debug\DirectoryCompare_MarkupCompile.lref
+D:\Code\WPF-C-Practice\DirectoryCompare\DirectoryCompare\obj\Debug\MainWindow.baml
+D:\Code\WPF-C-Practice\DirectoryCompare\DirectoryCompare\obj\Debug\DirectoryCompare.g.resources
+D:\Code\WPF-C-Practice\DirectoryCompare\DirectoryCompare\obj\Debug\DirectoryCompare.Properties.Resources.resources
+D:\Code\WPF-C-Practice\DirectoryCompare\DirectoryCompare\obj\Debug\DirectoryCompare.csproj.GenerateResource.cache
+D:\Code\WPF-C-Practice\DirectoryCompare\DirectoryCompare\obj\Debug\DirectoryCompare.csproj.CoreCompileInputs.cache
+D:\Code\WPF-C-Practice\DirectoryCompare\DirectoryCompare\obj\Debug\DirectoryCompare.exe
+D:\Code\WPF-C-Practice\DirectoryCompare\DirectoryCompare\obj\Debug\DirectoryCompare.pdb

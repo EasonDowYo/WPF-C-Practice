@@ -7,6 +7,19 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <TreeView Name="TreeView1" HorizontalAlignment="Left" Height="277" Margin="109,36,0,0" VerticalAlignment="Top" Width="167" FontSize="14">
+            <TreeViewItem Header="Food">
+                <TreeViewItem Header="Cold">
+                    <TreeViewItem Header="Soda"/>
+                    <TreeViewItem Header="Ice cream"/>
+
+                </TreeViewItem>
+            </TreeViewItem>
+            <TreeViewItem Header="Name">
+                <TreeViewItem Header="Eason"/>
+                <TreeViewItem Header="William"/>
+            </TreeViewItem>
+        </TreeView>
+
     </Grid>
 </Window>
