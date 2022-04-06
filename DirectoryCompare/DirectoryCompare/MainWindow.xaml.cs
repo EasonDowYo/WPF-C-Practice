@@ -27,6 +27,12 @@ namespace DirectoryCompare
             InitializeComponent();
             var i = TreeView1.Items;
             int h = 1;
+
+
+            
+
+
+
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -176,6 +182,39 @@ namespace DirectoryCompare
             Equal,
             Different,
             OneNull
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            TreeView tv = new TreeView();
+
+            DirectoryBranch folder = new DirectoryBranch { DirectoryName = "A" ,SubDirectory= new List<DirectoryBranch>(),fileItems=new List<FileItem>()};
+            DirectoryBranch folder2 = new DirectoryBranch { DirectoryName = "B", SubDirectory = new List<DirectoryBranch>(), fileItems = new List<FileItem>() };
+            FileItem files1 = new FileItem { FileName = "F1" };
+            FileItem files2 = new FileItem { FileName = "F2" };
+            FileItem files3 = new FileItem { FileName = "F3" };
+            FileItem files4 = new FileItem { FileName = "F4" };
+            folder2.fileItems.Add(files3);
+            folder2.fileItems.Add(files4);
+            folder.SubDirectory.Add(folder2);
+            folder.fileItems.Add(files1);
+            folder.fileItems.Add(files2);
+            
+            TreeViewItem t = new TreeViewItem();
+            t.Header = folder;
+            TreeView2.Items.Add(t);
+        }
+
+        public class DirectoryBranch
+        {
+            public string DirectoryName;
+            public List<DirectoryBranch> SubDirectory;
+            public List<FileItem> fileItems;
+        }
+        public class FileItem
+        {
+            public string FileName;
+
         }
     }
 }

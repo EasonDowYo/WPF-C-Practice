@@ -20,7 +20,12 @@
                 <TreeViewItem Header="William"/>
             </TreeViewItem>
         </TreeView>
-        <Button Content="Button" HorizontalAlignment="Left" Height="58" Margin="307,97,0,0" VerticalAlignment="Top" Width="118" Click="Button_Click"/>
+
+        <TreeView Name="TreeView2" HorizontalAlignment="Left" Height="277" Margin="453,36,0,0" VerticalAlignment="Top" Width="167" FontSize="14">
+            
+        </TreeView>
+        <Button Content="Button" HorizontalAlignment="Left" Height="58" Margin="299,36,0,0" VerticalAlignment="Top" Width="118" Click="Button_Click"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="353,148,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
 
     </Grid>
 </Window>
