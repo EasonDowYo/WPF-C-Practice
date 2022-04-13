@@ -1,0 +1,16 @@
+D:\Code\WPF-C-Practice\TaskTest\TaskTest\bin\Debug\net5.0\TaskTest.exe
+D:\Code\WPF-C-Practice\TaskTest\TaskTest\bin\Debug\net5.0\TaskTest.deps.json
+D:\Code\WPF-C-Practice\TaskTest\TaskTest\bin\Debug\net5.0\TaskTest.runtimeconfig.json
+D:\Code\WPF-C-Practice\TaskTest\TaskTest\bin\Debug\net5.0\TaskTest.runtimeconfig.dev.json
+D:\Code\WPF-C-Practice\TaskTest\TaskTest\bin\Debug\net5.0\TaskTest.dll
+D:\Code\WPF-C-Practice\TaskTest\TaskTest\bin\Debug\net5.0\ref\TaskTest.dll
+D:\Code\WPF-C-Practice\TaskTest\TaskTest\bin\Debug\net5.0\TaskTest.pdb
+D:\Code\WPF-C-Practice\TaskTest\TaskTest\obj\Debug\net5.0\TaskTest.csprojAssemblyReference.cache
+D:\Code\WPF-C-Practice\TaskTest\TaskTest\obj\Debug\net5.0\TaskTest.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\WPF-C-Practice\TaskTest\TaskTest\obj\Debug\net5.0\TaskTest.AssemblyInfoInputs.cache
+D:\Code\WPF-C-Practice\TaskTest\TaskTest\obj\Debug\net5.0\TaskTest.AssemblyInfo.cs
+D:\Code\WPF-C-Practice\TaskTest\TaskTest\obj\Debug\net5.0\TaskTest.csproj.CoreCompileInputs.cache
+D:\Code\WPF-C-Practice\TaskTest\TaskTest\obj\Debug\net5.0\TaskTest.dll
+D:\Code\WPF-C-Practice\TaskTest\TaskTest\obj\Debug\net5.0\ref\TaskTest.dll
+D:\Code\WPF-C-Practice\TaskTest\TaskTest\obj\Debug\net5.0\TaskTest.pdb
+D:\Code\WPF-C-Practice\TaskTest\TaskTest\obj\Debug\net5.0\TaskTest.genruntimeconfig.cache
