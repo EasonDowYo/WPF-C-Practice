@@ -9,54 +9,36 @@ namespace TaskTest
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Program start");
 
-            Task subThread1 = new Task(() =>
-            {
-                //這裡可以填入一系列要讓該線程做的事
-                Thread.Sleep(1000);
-                Console.WriteLine("I am subThread1!");
-                for(int i=0; i<100; i++)
-                {
-                    Console.Write("1");
-                }
-            });
+            // Generate Task
+
+            // Method 1 
+            Task subThread1 = new Task(() => MyTask1());
+
+            // Method 2
             Task subThread2 = new Task(() =>
             {
-                //這裡可以填入一系列要讓該線程做的事
-                Thread.Sleep(1000);
-                Console.WriteLine("I am subThread2!");
-                for (int i = 0; i < 100; i++)
-                {
+                for (int i = 0; i < 50; i++)
                     Console.Write("2");
-                }
-            });
-            Task subThread3 = new Task(() =>
-            {
-                //這裡可以填入一系列要讓該線程做的事
-                Thread.Sleep(1000);
-                Console.WriteLine("I am subThread3!");
-                for (int i = 0; i < 100; i++)
-                {
-                    Console.Write("3");
-                }
-            });
-            Task subThread4 = new Task(() =>
-            {
-                //這裡可以填入一系列要讓該線程做的事
-                Thread.Sleep(1000);
-                Console.WriteLine("I am subThread4!");
-                for (int i = 0; i < 100; i++)
-                {
-                    Console.Write("4");
-                }
             });
 
-            // 讓線程溝通
+            // Method 3
+            Task subThread3 = new Task(MyTask3);
+
+
+            // Method 4 with input
+            Task<string> subThread4 = Task.Run<string>(() => MyTask4("subThread4"));
 
             // 讓2條線程開始跑
             subThread2.Start();
             subThread1.Start();
+            subThread3.Start();
+
+            Task.WhenAll(subThread1, subThread2, subThread3, subThread4).Wait();
+            Console.WriteLine(subThread4.Result);
+
+            /*
             // GetAwaiter() : 等待完成, OnCompleted() : 線程完成後要做的事
             subThread1.GetAwaiter().OnCompleted(() => {
                 // 線程完成後要做的事
@@ -70,7 +52,39 @@ namespace TaskTest
             // 等待線程完成才繼續往下走
             subThread3.Wait();
             subThread4.Wait();
+            */
+        }
 
+        private static void MyTask1()
+        {
+            for (int i =0; i<150; i++)
+                Console.Write("1");
+        }
+        private static void MyTask2()
+        {
+            for (int i = 0; i < 150; i++)
+                Console.Write("2");
+        }
+        private static void MyTask3()
+        {
+            for (int i = 0; i < 150; i++)
+                Console.Write("3");
+            
+        }
+        private static string MyTask4(string str)
+        {
+            Console.Write(str);
+            for (int i = 0; i < 150; i++)
+                Console.Write("4");
+            return "MyTask4Return";
+        }
+
+        static void MyMethod2(object message)
+        {
+            for (int i = 0; i < 500; i++)
+            {
+                Console.Write(message.ToString());
+            }
         }
     }
 }
