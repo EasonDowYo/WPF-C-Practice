@@ -153,29 +153,29 @@ namespace DataTable_Template
                 #region Layouts
 
                 // 指定列印紙張大小
-                sheet.PrintSetup.PaperSize = (short)PaperSize.A4;
+                //sheet.PrintSetup.PaperSize = (short)PaperSize.A4;
 
                 // 列印版面為 橫向: true 直向: false
-                sheet.PrintSetup.Landscape = true;
+                //sheet.PrintSetup.Landscape = true;
 
                 // 設置列印標題（上側）
-                int firstRow = 0;
-                int lastRow = 0;
-                int firstCol = 0;
-                int lastCol = dt.Columns.Count;
-                sheet.RepeatingRows = new CellRangeAddress(firstRow, lastRow, firstCol, lastCol);
+                //int firstRow = 0;
+                //int lastRow = 0;
+                //int firstCol = 0;
+                //int lastCol = dt.Columns.Count;
+                //sheet.RepeatingRows = new CellRangeAddress(firstRow, lastRow, firstCol, lastCol);
 
                 // 設置列印標題（左側）
-                sheet.RepeatingColumns = new CellRangeAddress(firstRow, lastRow, firstCol, lastCol);
+                //sheet.RepeatingColumns = new CellRangeAddress(firstRow, lastRow, firstCol, lastCol);
 
                 // 列印頁尾頁碼
-                sheet.Footer.Center = "&P";
+                //sheet.Footer.Center = "&P";
 
                 // 顯示格線 顯示: true 不顯示: false
-                sheet.DisplayGridlines = true;
+                //sheet.DisplayGridlines = true;
 
                 // 調整欄寬
-                sheet.SetColumnWidth(0, 20 * 256);
+                //sheet.SetColumnWidth(0, 20 * 256);
 
                 // 自動調整欄寬
                 for (i = 1; i < dt.Columns.Count; i++)
@@ -187,8 +187,8 @@ namespace DataTable_Template
                 sheet.GetRow(0).Height = 30 * 20;
 
                 // 合併儲存格
-                CellRangeAddress region = new CellRangeAddress(0, 2, 1, 1);
-                sheet.AddMergedRegion(region);
+                //CellRangeAddress region = new CellRangeAddress(0, 2, 1, 1);
+                //sheet.AddMergedRegion(region);
 
                 #endregion
 
