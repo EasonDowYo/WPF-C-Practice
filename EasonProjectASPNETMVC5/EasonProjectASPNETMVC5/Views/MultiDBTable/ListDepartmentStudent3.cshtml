@@ -1,0 +1,36 @@
+﻿@model EasonProjectASPNETMVC5.Models.DepartmentStudent3ViewModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ListDepartmentStudent3</title>
+</head>
+<body>
+    <div>
+        <h4>DepartmentStudent3ViewModel</h4>
+        <hr />
+        <dl class="dl-horizontal">
+        </dl>
+    </div>
+    @foreach (var itemD in Model.DPTbl3)
+    {
+        @Html.DisplayFor(c => itemD.DepartmentID);
+        @Html.DisplayFor(c => itemD.DepartmentName);
+
+        foreach (var itemSD in Model.SDTbl3.Where(S => S.DepartmentID == itemD.DepartmentID))
+        {
+            @Html.DisplayFor(x => itemSD.DepartmentID);
+            @Html.DisplayFor(x => itemSD.StudentName);
+            @Html.DisplayFor(x => itemSD.IsInschool);
+            <br />
+        }
+
+    }
+</body>
+</html>

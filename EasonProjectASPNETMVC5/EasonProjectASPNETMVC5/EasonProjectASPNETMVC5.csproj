@@ -128,18 +128,26 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\ControlItemController.cs" />
     <Compile Include="Controllers\CRUDController.cs" />
     <Compile Include="Controllers\FirstController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MultiDBTableController.cs" />
     <Compile Include="Controllers\RepositoryController.cs" />
     <Compile Include="Controllers\ValidationController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\DepartmentStudent2ViewModel.cs" />
+    <Compile Include="Models\DepartmentStudent3ViewModel.cs" />
+    <Compile Include="Models\DepartmentStudentViewModel.cs" />
+    <Compile Include="Models\DepartmentTable.cs" />
+    <Compile Include="Models\MyTestDB2Context.cs" />
     <Compile Include="Models\MyTestDBContext.cs" />
     <Compile Include="Models\MyValidation\MyDateRangeValidationAttribute.cs" />
     <Compile Include="Models\Repository\ITestTableRepository.cs" />
     <Compile Include="Models\Repository\TestTableRepository.cs" />
+    <Compile Include="Models\StudentTable.cs" />
     <Compile Include="Models\TestTable.cs" />
     <Compile Include="Models\TestTableItemAttributes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -193,6 +201,14 @@
     <Content Include="Views\CRUD\Search_MultiCondition_Result.cshtml" />
     <Content Include="Views\Validation\ListAllData_Valid.cshtml" />
     <Content Include="Views\Validation\CreateData_Valid.cshtml" />
+    <Content Include="Views\MultiDBTable\Index.cshtml" />
+    <Content Include="Views\MultiDBTable\GetDepartmentStudent.cshtml" />
+    <Content Include="Views\MultiDBTable\GetDepartmentStudent5.cshtml" />
+    <Content Include="Views\MultiDBTable\ListDepartmentStudent2.cshtml" />
+    <Content Include="Views\MultiDBTable\ListDepartmentStudent3.cshtml" />
+    <Content Include="Views\ControlItem\Create.cshtml" />
+    <Content Include="Views\ControlItem\Create2.cshtml" />
+    <Content Include="Views\ControlItem\Create3.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
