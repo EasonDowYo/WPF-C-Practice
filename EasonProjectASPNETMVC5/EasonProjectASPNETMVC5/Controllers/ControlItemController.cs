@@ -43,5 +43,10 @@ namespace EasonProjectASPNETMVC5.Controllers
             ViewBag.DPListItem = ListItems;
             return View();
         }
+
+        public ActionResult Create4()
+        {
+
+        }
     }
 }

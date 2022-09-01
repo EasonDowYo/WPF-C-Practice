@@ -142,6 +142,8 @@
     <Compile Include="Models\DepartmentStudent3ViewModel.cs" />
     <Compile Include="Models\DepartmentStudentViewModel.cs" />
     <Compile Include="Models\DepartmentTable.cs" />
+    <Compile Include="Models\DropDownListViewModel.cs" />
+    <Compile Include="Models\ModelDropDownList\MyTestDBDropDownList.cs" />
     <Compile Include="Models\MyTestDB2Context.cs" />
     <Compile Include="Models\MyTestDBContext.cs" />
     <Compile Include="Models\MyValidation\MyDateRangeValidationAttribute.cs" />
