@@ -32,5 +32,13 @@ namespace EasonProjectASPNETMVC5.Models
 
         [StringLength(1)]
         public string Sex { get; set; }
+        //public SexList Sex { get; set; }
+        public enum SexList
+        {
+            [Display(Name ="³ä³ä")]
+            M,
+            [Display(Name = "¤k¤k")]
+            F
+        }
     }
 }

@@ -132,6 +132,7 @@
     <Compile Include="Controllers\CRUDController.cs" />
     <Compile Include="Controllers\FirstController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\InteractiveController.cs" />
     <Compile Include="Controllers\MultiDBTableController.cs" />
     <Compile Include="Controllers\RepositoryController.cs" />
     <Compile Include="Controllers\ValidationController.cs" />
@@ -211,6 +212,10 @@
     <Content Include="Views\ControlItem\Create.cshtml" />
     <Content Include="Views\ControlItem\Create2.cshtml" />
     <Content Include="Views\ControlItem\Create3.cshtml" />
+    <Content Include="Views\ControlItem\Create4.cshtml" />
+    <Content Include="Views\ControlItem\Create6.cshtml" />
+    <Content Include="Views\Interactive\Create1.cshtml" />
+    <Content Include="Views\Interactive\Create2.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
